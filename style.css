@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    grid-template-columns: [col1] 1fr [col2] 2fr [col3] 1fr;
+    grid-template-areas:
+    "aside1 main aside2";
+    justify-items: start;
+    grid-gap: 14px;
+}
+
+body {
+    margin: 14px;
+    padding: 14px;
+    border: 1px solid rgb(240, 7, 7);
+}
+
+header {
+    text-align: center;
+    height: 100px;
+    background-color: rgb(255, 200, 112);
+    border: 1px solid #000;
+    margin-bottom: 14px;
+}
+
+h1 {
+    text-align: center;
+    margin-left: 44%;
+    margin-right: 44%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(22, 0, 144);
+}
+
+div {
+    text-align: center;
+}
+
+.aside1 {
+    grid-area: aside1;
+    margin: 14 px;
+    padding: 14 px;
+    border: 1px solid #000;
+    background-color: rgb(177, 231, 176);
+}
+
+.aside2 {
+    grid-area: aside2;
+    margin: 14 px;
+    padding: 14 px;
+    border: 1px solid #000;
+    background-color: rgb(250, 240, 181);
+}
+
+.main {
+    grid-area: main;
+    margin: 14 px;
+    padding: 14 px;
+    border: 1px solid #000;
+    background-color: rgb(167, 204, 246);
+}
+
+article {
+    grid-area: article;
+    border: 1px solid rgb(7, 4, 156);
+    margin: 14px;
+    padding-left: 8px;
+    padding-right: 8 px;
+}
+
+p {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    height: 80px;
+    background-color: rgb(224, 179, 153);
+    border: 1px solid #000;
+    margin-top: 14px;
+}
+
+h3 {
+    text-align: center;
+    margin-left: 44%;
+    margin-right: 44%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgb(22, 0, 144);
+}
